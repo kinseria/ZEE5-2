@@ -36,7 +36,7 @@ setTimeout(function(){
          tmp = params[i].split('=');
          data[tmp[0]] = tmp[1];
     }
-    let url2='http://zee5api.herokuapp.com/z5api.php?q='+data.name;
+    let url2='https://zee5api.herokuapp.com/z5api.php?q='+data.name;
     userAction2(url2);
 }
 
